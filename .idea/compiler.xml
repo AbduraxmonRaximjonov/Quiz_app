@@ -8,6 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="QuizAppSqlite" />
       </profile>
+      <profile name="Annotation profile for QuizAppSqlite" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Quiz_app" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>
